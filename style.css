@@ -1,0 +1,30 @@
+.info {
+    line-height: 2;
+}
+
+.stuff {
+    display: inline;
+}
+
+#dice {
+    width: 30%;
+    height:30%;
+    float:right;
+}
+
+.dataList {
+    width: 50%;
+}
+
+h1 {
+    display: inline-block;
+}
+/* 
+p {
+    display: inline-block;
+} */
+
+body {
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 115%);
+}
