@@ -19,4 +19,4 @@ const diceRoll = (roll, lowNum, highNum, one, two, three, four, five, six) => {
     list.append(newRollData)
 }
 ```
-Of course this won't make sense unless you open the files and look at the actual values and whatnot but it's a future reference type thing.
+Of course this won't make that much sense unless you open the files and look at the actual values and whatnot but it's a future reference type thing.
