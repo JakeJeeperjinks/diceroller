@@ -1,7 +1,7 @@
 # Dice Roller Website
-A simple dice roller website that provides you with many stats such as how many of each number was rolled as well as the percentage of high/low numbers rolled. (Low Number = 1-3 / High Number = 4-6)
+A simple dice roller website that provides you with way more stats than you'll ever need such as how many of each number was rolled as well as the percentage of high/low numbers rolled. (Low Number = 1-3 / High Number = 4-6)
 
-This was more of a DOM practice for me, so here's the code that manipulates the DOM elements:
+This was more of a DOM practice for me, so here's the function that manipulates the DOM elements and calculates the percentages and rounds them:
 ```javascript
 const diceRoll = (roll, lowNum, highNum, one, two, three, four, five, six) => {
     const newRollData = document.createElement('li');
@@ -20,3 +20,6 @@ const diceRoll = (roll, lowNum, highNum, one, two, three, four, five, six) => {
 }
 ```
 Of course this won't make that much sense unless you open the files and look at the actual values and whatnot but it's a future reference type thing.
+
+## The Site in Action:
+![picture alt](./imgs/screenshot.png)
