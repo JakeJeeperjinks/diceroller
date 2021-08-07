@@ -12,6 +12,10 @@
     float:right;
 }
 
+#myForm {
+    display:inline;
+}
+
 .dataList {
     width: 50%;
 }
